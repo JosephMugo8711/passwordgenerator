@@ -4,7 +4,7 @@ const sliderValue = document.getElementById("sliderValue");
 const passBox = document.getElementById("passBox");
 
 const lowercaseEl = document.getElementById("lowercase");
-const uppercseEl = document.getElementById("uppercase");
+const uppercaseEl = document.getElementById("uppercase");
 const numbersEl = document.getElementById("numbers");
 const symbolsEl = document.getElementById("symbols");
 
@@ -34,7 +34,7 @@ function generatePassword(){
     let password = "";
 
     characters += lowercaseEl.checked ? lowercaseLetters : "";
-    characters += uppercseEl.checked ? uppercaseLetters : "";
+    characters += uppercaseEl.checked ? uppercaseLetters : "";
     characters += numbersEl.checked ? numbers : "";
     characters += symbolsEl.checked ? symbols : "";
 
